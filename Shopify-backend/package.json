@@ -1,0 +1,14 @@
+{
+  "name": "shopify-order-backend",
+  "version": "1.0.0",
+  "description": "Secure Shopify order processing backend",
+  "main": "api/create-order.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
