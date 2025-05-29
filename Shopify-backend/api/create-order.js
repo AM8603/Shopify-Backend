@@ -1,9 +1,9 @@
 export default async function handler(req, res) {
   // CORS headers - Add your actual domains here
   const allowedOrigins = [
-    'https://trqd71-2n.myshopify.com',
-    'https://your-custom-domain.com', // Add your custom domain
-    'https://www.your-custom-domain.com'
+     'https://trqd71-2n.myshopify.com',
+    'https://wholesaleworldubai.com/', // Add your custom domain
+    'https://www.wholesaleworldubai.com'
   ];
   
   const origin = req.headers.origin;
