@@ -1,10 +1,11 @@
 export default async function handler(req, res) {
-  // CORS headers - Add your actual domains here
-  const allowedOrigins = [
-     'https://trqd71-2n.myshopify.com',
-    'https://wholesaleworldubai.com/', // Add your custom domain
-    'https://www.wholesaleworldubai.com'
-  ];
+ // Update the allowedOrigins array in your create-order.js file
+const allowedOrigins = [
+  'https://trqd71-2n.myshopify.com',
+  'https://wholesaleworldubai.com',           // Add this line
+  'https://www.wholesaleworldubai.com',       // Add this line too
+  'http://localhost:3000'                     // For local testing
+];
   
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
